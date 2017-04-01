@@ -15,6 +15,15 @@ body {
 	margin-left: 15%;
 }
 
+#super_head {
+	margin-right: 15%;
+	margin-left: 15%;
+	text-align: center;
+	color: red;
+	font: bold;
+	background-color: yellow;
+}
+
 .flex {
 	display: flex;
 }
@@ -45,13 +54,14 @@ body {
 
 #left_cont {
 	width: 80%;
-	background-color: green;
 	margin-right: 2px;
 }
 
 #right_cont {
 	flex-grow: 1;
-	background-color: red;
 	margin-left: 2px;
 }
 
+p {
+	width: 80%;
+}
