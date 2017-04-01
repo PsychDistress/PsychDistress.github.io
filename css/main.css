@@ -8,15 +8,19 @@ body {
 #wrapper {
 	padding-left: 5px;
 	padding-right: 5px;
+	padding-bottom: 5px;
 	text-align: left;
 	background-color: grey;
 	margin-right: 15%;
 	margin-left: 15%;
 }
 
+.flex {
+	display: flex;
+}
+
 #headder {
 	text-align: left;
-	display: flex;
 }
 
 #top_img_div {
@@ -29,8 +33,25 @@ body {
 }
 
 #main_title {
+	display: flex;
 	flex-grow: 1;
-	text-align: center;
-	vertical-align: middle;
+	align-items: center;
+	justify-content: center;
+}
+
+.content {
+	padding: 2px;
+}
+
+#left_cont {
+	width: 80%;
+	background-color: green;
+	margin-right: 2px;
+}
+
+#right_cont {
+	flex-grow: 1;
+	background-color: red;
+	margin-left: 2px;
 }
 
