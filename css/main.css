@@ -37,6 +37,7 @@
 	
 	h1 {
 		font-size: 20px;
+		color: #339933;
 	}
 
 }
@@ -89,6 +90,7 @@ body {
 	flex-grow: 1;
 	align-items: center;
 	justify-content: center;
+	color: #339933;
 }
 
 .content {
