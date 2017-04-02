@@ -10,14 +10,11 @@ body {
 	padding-right: 5px;
 	padding-bottom: 5px;
 	text-align: left;
-	background-color: grey;
-	margin-right: 15%;
-	margin-left: 15%;
+	margin-right: 20%;
+	margin-left: 20%;
 }
 
 #super_head {
-	margin-right: 15%;
-	margin-left: 15%;
 	text-align: center;
 	color: red;
 	font: bold;
@@ -64,4 +61,12 @@ body {
 
 p {
 	width: 80%;
+}
+
+#social_div {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
 }
