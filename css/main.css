@@ -1,7 +1,53 @@
+
+/* For Mobile */
+@media only screen and (max-width: 768px) {
+
+	body {
+		padding: 0px;
+		margin-top: 0px;
+		text-align: top;
+		background-color: #f8f8f8;
+		margin: auto;
+		width: 100%;
+	}
+
+	#wrapper {
+		width: 100%;
+	}
+
+	#super_head {
+		text-align: center;
+		background-color: yellow;
+		color: red;
+		width: 100%;
+	}
+	
+	#top_img_div {
+		width: 100%;
+	}
+
+	#top_img {
+		width: 90%;
+		height: auto;
+	}
+
+	#main_title {
+		text-align: center;
+	}
+	
+	h1 {
+		font-size: 20px;
+	}
+
+}
+
+/* For Desktops */
+@media only screen and (min-width: 768px) {
 body {
 	padding: 0px;
 	margin-top: 0px;
 	text-align: top;
+	background-color: #f8f8f8;
 	margin: auto;
 }
 
@@ -69,4 +115,5 @@ p {
 
 a {
 	text-decoration: none;
+}
 }
