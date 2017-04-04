@@ -1,3 +1,48 @@
+/* For less than 390px Mobile */
+@media only screen and (max-width: 390px) {
+
+	body {
+		padding: 0px;
+		margin-top: 0px;
+		text-align: top;
+		background-color: #f8f8f8;
+		margin: auto;
+		width: 100%;
+	}
+
+	#wrapper {
+		width: 100%;
+	}
+
+	#super_head {
+		text-align: center;
+		background-color: yellow;
+		color: red;
+		width: 100%;
+	}
+	
+	#top_img_div {
+		width: 100%;
+	}
+
+	#top_img {
+		width: 100%;
+		height: auto;
+	}
+
+	#main_title {
+		text-align: center;
+	}
+	
+	h1 {
+		color: #339933;
+		font-size: 1.3em;
+	}
+	
+	#content {
+		padding: 5px;
+	}
+}
 
 /* For Mobile */
 @media only screen and (max-width: 768px) {
@@ -119,6 +164,9 @@ p {
 
 } /* end of desktop section */
 
+body {
+	font-family: 'Raleway', sans-serif;
+}
 
 #social_div {
 	list-style: none;
@@ -163,4 +211,9 @@ a:visited {
 
 #email_div {
 	font-size: 13px;
+}
+
+#copyright {
+	text-align: center;
+	font-size: 10px;
 }
