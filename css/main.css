@@ -291,7 +291,13 @@ a:visited {
 	font-size: 13px;
 }
 
+#email_icon {
+	width: 80%;
+	height: auto;
+}
+
 #copyright {
 	text-align: center;
 	font-size: 10px;
 }
+
