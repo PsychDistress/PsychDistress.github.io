@@ -45,7 +45,7 @@
 }
 
 /* For Mobile */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 740px) {
 
 	body {
 		padding: 0px;
@@ -93,8 +93,82 @@
 
 } /* end of mobile section */
 
+/* For Tablets */
+@media only screen and (min-width: 740px) {
+
+body {
+	padding: 0px;
+	margin-top: 0px;
+	text-align: top;
+	background-color: #f8f8f8;
+	margin: auto;
+}
+
+#wrapper {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	text-align: left;
+}
+
+#super_head {
+	text-align: center;
+	color: red;
+	font: bold;
+	background-color: yellow;
+}
+
+.flex {
+	display: flex;
+}
+
+#header {
+	text-align: left;
+}
+
+#top_img_div {
+	width: 60%;
+}
+
+#top_img {
+	width: 90%;
+	height: auto;
+}
+
+#main_title {
+	display: flex;
+	flex-grow: 1;
+	align-items: center;
+	justify-content: center;
+	color: #339933;
+}
+
+.content {
+	padding: 2px;
+}
+
+#left_cont {
+	width: 80%;
+	margin-right: 2px;
+}
+
+#right_cont {
+	flex-grow: 1;
+	margin-left: 2px;
+}
+
+p {
+	width: 80%;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+} /* End of tablets */
+
 /* For Desktops */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 980px) {
 body {
 	padding: 0px;
 	margin-top: 0px;
@@ -160,6 +234,10 @@ body {
 
 p {
 	width: 80%;
+}
+
+h1 {
+	font-size: 2em;
 }
 
 } /* end of desktop section */
